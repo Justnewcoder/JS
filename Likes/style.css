@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 900px;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.heading{
+    color: white;
+}
+.msg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.yourFeed{
+    text-align: center;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+img{
+    width: 100px;
+    position: center;
+}
+#pestOff{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 355px;
+    margin-top: 111px;
+    height: 600px;
+    width: 30%;
+}
+.user1{
+    border: 2px solid black;
+    justify-content: space-evenly;
+}
+.user1head{
+    display: flex;
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+}
+.words{
+    height: 100px;
+    width: auto;
+}
+.user2{
+    border: 2px solid black;
+}
+.user2head{
+    display: flex;
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+}
+.words1{
+    height: 100px;
+    width: auto;
+}
+.user3{
+    border: 2px solid black;
+}
+.user3head{
+    display: flex;
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+}
+.words2{
+    height: 100px;
+    width: auto;
+}
+#liked{
+    background-color: orange;
+    height: 40px;
+    width: 60px;
+}
