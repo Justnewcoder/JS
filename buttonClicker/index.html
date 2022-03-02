@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div id="flex-container">
+        <div id="header">
+    <h1>Dojonary</h1>
+    <form id="search">
+        <input type="text" id="search" placeholder="search">
+    </form>
+    <button onclick="sayLogout(this)" class="btn1" type="submit">Login</button> 
+    <!--This button needs to change Login -> to Logout-->
+</div>
+<div id="tainer">
+    <div class="words">
+        <h2>ninja</h2>
+        <h4>noun</h4>
+        <h5>Plural: ninjas</h5>
+    </div>
+    <button onclick="showAlert(this)" class="btn2" type="submit">13 likes</button> 
+    <!--Set up ALERT when this btn is pressed "This ninja was LIKED!"-->
+    <p class="explanation">A practitioner skilled in the <a href="#">japanese</a> art of <a href="#">ninjutsu</a></p> <!--Japanese hover defined & ninjutsu hover difined in blue--> 
+</div>
+<div id="tainer">
+    <div class="words">
+    <h2>ninja</h2>
+    <h4>noun</h4>
+    <h5>Plural: ninjas</h5>
+</div>
+<button onclick="showAlert(this)" class="btn2" type="submit">37 likes</button> 
+    <p class="explanation">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p> <!--programmer hover difined in blue--> 
+</div>
+<div id="showOff">
+    <h2>Dojonary is defined by YOU!</h2>
+    <button onclick="hideButton(this)" id="btn3" type="submit"> Show Definition</button> 
+    <!-- <button id="btn3">Show Definition</button> -->
+    <!--this button will disapper and provides definition-->
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
